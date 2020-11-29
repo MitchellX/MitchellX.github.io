@@ -21,6 +21,25 @@ p {
   float: right;
 }
 
+/*------------------------------------------*/
+
+.round_icon{
+  width: 60%;
+  height: 60%;
+  display: flex;
+  border-radius: 70%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+/*------------------------------------------*/
+
+
+
+
+
 .content-section {
   padding-top: 80px;
   position: relative;
