@@ -33,6 +33,22 @@ p {
   justify-content: center;
   overflow: hidden;
 }
+
+
+/*我自定义的文本格式*/
+.xmc-content {
+  padding-top: 40px;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+
+
+
+
+
 /*------------------------------------------*/
 
 
@@ -196,7 +212,7 @@ header {
 
 .sidebar-navigation {
   /*这个之后改*/
-  width: 22.5%;
+  width: 21%;
   float: left;
   height: 100%;
   position: fixed;
@@ -485,6 +501,8 @@ header {
 
 
 /* Featured Style */
+
+
 
 #featured {
   padding-left: 60px;
