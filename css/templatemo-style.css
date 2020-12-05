@@ -17,7 +17,8 @@ p {
 }
 
 .page-content {
-  width: 77.5%;
+  /*width: 77.5%;*/
+  width: 80%;
   float: right;
 }
 
@@ -62,6 +63,13 @@ p {
   width: 50%;
 }
 
+.edu-content {
+  padding-top: 20px;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
 
 
 
@@ -229,7 +237,8 @@ header {
 
 .sidebar-navigation {
   /*这个之后改*/
-  width: 21%;
+  /*22.5*/
+  width: 18%;
   float: left;
   height: 100%;
   position: fixed;
