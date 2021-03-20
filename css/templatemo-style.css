@@ -49,6 +49,9 @@ p {
   padding-top: 5px;
   width: 95%;
   background-color: #fff;
+    font-size: 15px;
+  /*line-height: 26px;*/
+  color: #101010;
   position: relative;
   z-index: 10;
 }
@@ -58,15 +61,30 @@ p {
   width: 50%;
 }
 
+/*这里调节字体大小和颜色, 宽度占比*/
 .intro{
+
+  font-size: 15px;
+  /*line-height: 26px;*/
+  color: #101010;
+
   float: left;
   width: 50%;
+}
+
+.service{
+
+  font-size: 15px;
+  /*line-height: 26px;*/
+  color: #101010;
+  float: left;
 }
 
 .edu-content {
   padding-top: 20px;
   width: 95%;
   background-color: #fff;
+
   position: relative;
   z-index: 10;
 }
@@ -123,18 +141,20 @@ p {
   display: inline-block;
   margin-right: 50px;
 }
-
+/*改大标题的颜色*/
 .section-heading em {
   font-style: normal;
   font-weight: 700;
   color: #45489a;
 }
 
+/*改p标签的颜色和大小*/
 .section-heading p {
   display: inline-block;
   font-size: 15px;
-  line-height: 26px;
-  color: #343434;
+  /*line-height: 26px;*/
+  color: #101010;
+  /*color: #343434;*/
   position: absolute;
   top: 12.5px;
 }
